@@ -2,15 +2,27 @@
 
 int main()
 {
-    int age = 10;
-    float height = 9.889;
-    char initial = 'A';
-    char name[] = "Vickey";
+    int age;
+    float height;
+    char initial;
+    char name[100];
 
-    printf("%d\n", age);
-    printf("%.3f\n", height);
-    printf("%c\n", initial);
-    printf("%s\n", name);
+    printf("Enter age: ");
+    scanf("%d", &age);
+
+    printf("Enter height: ");
+    scanf("%f", &height);
+
+    printf("Enter initial: ");
+    scanf(" %c", &initial);
+
+    printf("Enter name: ");
+    scanf("%99s", name);
+
+    printf("\nAge: %d\n", age);
+    printf("Height: %.3f\n", height);
+    printf("Initial: %c\n", initial);
+    printf("Name: %s\n", name);
 
     return 0;
 }
