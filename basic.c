@@ -23,6 +23,7 @@ int main()
     printf("Height: %.3f\n", height);
     printf("Initial: %c\n", initial);
     printf("Name: %s\n", name);
+    printf("Hi and Hello World");
 
     return 0;
 }
